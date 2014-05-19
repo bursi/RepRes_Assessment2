@@ -1,0 +1,31 @@
+Analysis of storm damages across the US
+========================================================
+
+
+## Synopsis
+
+First, we read the data into R:
+
+```{r}
+rawdata <- read.csv(file="repdata_data_StormData.csv", header=TRUE, skip=0);
+rawdata$BGN_DATE <- as.POSIXct(as.character(rawdata$BGN_DATE), format="%m/%d/%Y %H:%M:%S");
+```
+
+# Data Processing
+
+
+
+
+## Results
+
+
+
+```{r}
+
+```
+
+
+```{r fig.width=7, fig.height=6}
+
+```
+
